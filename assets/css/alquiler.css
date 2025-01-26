@@ -1,0 +1,22 @@
+img{
+    width: 90%;
+    height: 14rem;
+    object-fit: cover;
+    border-radius: 2%;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4em;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 1em 1em 1em;
+    border: solid 1px lightslategrey;
+    border-radius: 2%;
+}
+p{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
